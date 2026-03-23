@@ -19,8 +19,8 @@ x = IntVar()
 y = IntVar()
 
 # load images and shrink them using subsample so they fit inside the checkbox nicely
-python_img = PhotoImage(file="python_logo.png").subsample(4,4)
-cpp_img = PhotoImage(file="cpp_logo.png").subsample(4,4)
+python_img = PhotoImage(file="python_logo.png").subsample(4, 4)
+cpp_img = PhotoImage(file="cpp_logo.png").subsample(4, 4)
 
 # create the Python checkbox widget
 checkbox = Checkbutton(
